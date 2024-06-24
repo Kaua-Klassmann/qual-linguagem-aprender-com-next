@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.ask {
+  font-size: 30px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.answers {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+
+  .button {
+    cursor: pointer;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+    border: 0;
+  }
+}
